@@ -1,3 +1,5 @@
+
+
 # LISTS ======== Ordered, mutable (changeable) sequences
 my_list = [1, 2, "hello", 3.14]
 my_list.append(5)
@@ -23,3 +25,12 @@ i = 0
 while i < 5:
     print(i);
     i += 1
+
+# FUNCTIONS
+def greet(name):
+    print(f"Hello, {name}"); # you can also concatenate using the + operator
+
+greet("John")
+
+
+# using modules
