@@ -1,4 +1,5 @@
-
+import math
+import random
 
 # LISTS ======== Ordered, mutable (changeable) sequences
 my_list = [1, 2, "hello", 3.14]
@@ -33,4 +34,10 @@ def greet(name):
 greet("John")
 
 
-# using modules
+# ===== using modules
+result = math.sqrt(16)
+print(int(result)) # coverted to  integer
+
+
+random_number = random.randint(1, 10);
+print(random_number)    
