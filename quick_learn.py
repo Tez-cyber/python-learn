@@ -13,10 +13,13 @@ print(my_dict["name"])
 
 # FOR loops
 for i in range(1, 5):
-    print(i)
-
-for i in range(5, 10):
-    print(i * 5)
+    print(i);
 
 for item in my_list:
-    print(item)
+    print(item);
+
+# while loops
+i = 0
+while i < 5:
+    print(i);
+    i += 1
