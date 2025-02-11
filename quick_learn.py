@@ -10,3 +10,13 @@ print(my_tuple)
 # DICIONARIES ======== Unordered, mutable (changeable) collection of key-value pairs
 my_dict = {"name": "John", "age": 25}
 print(my_dict["name"])
+
+# FOR loops
+for i in range(1, 5):
+    print(i)
+
+for i in range(5, 10):
+    print(i * 5)
+
+for item in my_list:
+    print(item)
