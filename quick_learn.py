@@ -36,8 +36,23 @@ greet("John")
 
 # ===== using modules
 result = math.sqrt(16)
-print(int(result)) # coverted to  integer
+print(int(result)); # coverted to  integer
 
 
 random_number = random.randint(1, 10);
-print(random_number)    
+print(random_number); 
+
+
+# OOP
+class Dog: 
+    def __init__(self, name, breed): #constructor
+        self.name = name;
+        self.breed = breed;
+
+    def bark(self):
+        print(f"{self.name} Woof!");
+
+dog_1 = Dog("Rex", "German Shepherd");
+dog_1.bark(); # Rex Woof!
+print(dog_1.breed)
+
