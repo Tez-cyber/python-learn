@@ -3,6 +3,10 @@ import random
 
 # LISTS ======== Ordered, mutable (changeable) sequences
 my_list = [1, 2, "hello", 3.14]
+number_list = [];
+for i in range(1, 11):
+    number_list.append(i);
+print(number_list[::-1])
 my_list.append(5)
 print(my_list[0])
 
